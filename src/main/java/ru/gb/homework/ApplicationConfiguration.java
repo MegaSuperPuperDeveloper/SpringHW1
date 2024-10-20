@@ -1,4 +1,4 @@
-package ru.gb;
+package ru.gb.homework;
 
 import org.springframework.context.annotation.Bean;
 
@@ -6,9 +6,9 @@ import org.springframework.context.annotation.Bean;
 //@Configuration
 public class ApplicationConfiguration {
 
-  @Bean
-  UserRepository myUserRepository() {
-    return new UserRepository();
-  }
+    @Bean
+    StudentRepository myUserRepository() {
+        return new StudentRepository();
+    }
 
 }
